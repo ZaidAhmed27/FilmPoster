@@ -1,0 +1,117 @@
+/*******************/
+/** General Style **/
+/*******************/
+/** lets start our css with body by addind background image **/
+.poster{
+  background-image: url('../img/imgg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/** now adding the logo and caption under header **/
+header > div > figure > img{
+  width: auto;
+  height: 40px;
+  display:flex
+}
+/** let's do some styling,color,and aligns to class a **/
+.a{
+  text-align: center;
+  text-align: center;
+  color: #15317E;
+  font-family: ,sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-variant: small-caps;
+}
+/** let's do some styling,color,and aligns to class b **/
+.b{
+  text-align: center;
+  text-align: center;
+  color: #551606;
+  font-family: "Times New Roman", Times, serif; /** added new font **/
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+}
+/** let's do some styling,color,and aligns to class c **/
+.c{
+  text-align: center;
+  text-align: center;
+  color: #2F4F4F;
+  font-family: "Lucida Console", "Courier New", monospace; /** added new font **/
+  font-size: 20px;
+}
+/** let's do some styling,color,and aligns to class d **/
+.d{
+  text-align: center;
+  text-align: center;
+  font-family: 'Brush Script MT', cursive; /** added new font **/
+  font-size: 60px;
+  color: #000000;
+}
+/** let's finish the css with footer **/
+footer{
+  text-align: center;
+  color: #000000;
+  font-size: 50px;
+  font-family: 'Tangerine', serif; /** added new font **/
+  text-shadow: 4px 4px 4px #aaa;
+}
+/** let's do some styling,color,and aligns to section CAST **/
+.CAST{
+  background-color: #000000;
+}
+/** let's do some styling,color,and aligns to Movie info **/
+.info > h2{
+  font-size: 40px;
+  font-style: oblique;
+  font-family: 'Tangerine'. serif;
+  color: #ffffff;
+  background-color: #800000;
+}
+/** let's do some styling,color,and aligns to about Movie **/
+.info > p{
+  font-size: 25px;
+  font-style: oblique;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #ffffff;
+}
+/** let's do some styling,color,and aligns to about Movie **/
+.Details{
+  color: #ffffff;
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+/** in this section we will add the cast images **/
+.Cast > h3{
+  font-size: 40px;
+  font-style: oblique;
+  font-family: 'Tangerine'. serif;
+  color: #ffffff;
+  background-color: #800000;
+}
+.Cast > .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.Cast > .row > .column {
+  float: left;
+  width: 32.33%;
+  padding: 5px;
+  display: flex;
+  height: 400px;
+}
+.CAST > .info > .metadata{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 45px;
+  display: flex;
+  border-style: dashed;
+}
+
+
+/** End of the CSS file **/
