@@ -3,7 +3,7 @@
 /*******************/
 /** lets start our css with body by addind background image **/
 .poster{
-  background-image: url('../img/imgg.png');
+  background-image: url('imgg.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
